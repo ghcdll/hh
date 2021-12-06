@@ -29,9 +29,12 @@ using WindowsInput.Native;
 using WindowsInput;
 
 
-
 namespace APA.WAT.Agent
 {
+    /// <summary>
+    ///  Код формы Агента. 
+    ///  Агент запускается контроллером с параметрами, инициализирует GeckoFX и начинает выполнять полученный сценарий.
+    /// </summary>
     public partial class FormMain : Form
     {
         APAPluginCore PluginCore = new APAPluginCore();
